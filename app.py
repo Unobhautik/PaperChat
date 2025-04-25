@@ -146,10 +146,9 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### Instructions")
     st.markdown("""
-    1. Add your Google API key to the .env file
-    2. Upload one or more PDF or TXT files
-    3. Click "Process Documents"
-    4. Ask questions in the main panel
+    1. Upload one or more PDF or TXT files
+    2. Click "Process Documents"
+    3. Ask questions in the main panel
     """)
 
 if st.session_state.documents_processed:
