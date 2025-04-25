@@ -1,0 +1,30 @@
+# LangChain: A Framework for Building LLM Applications
+
+LangChain is a framework for developing applications powered by language models. It enables applications that:
+- Are context-aware: connect a language model to sources of context (document retrieval, databases, etc.)
+- Reason: rely on a language model to reason (chain multiple calls to the model together)
+
+## Key Components of LangChain
+
+### Models
+LangChain provides interfaces and integrations for working with language models from various providers like OpenAI, Anthropic, and many others.
+
+### Prompts
+LangChain provides tools for prompt management, optimization, and reuse. This includes prompt templates, example selectors for few-shot learning, and output parsers.
+
+### Indexes & Retrievers
+LangChain offers tools for storing, structuring, and retrieving information from documents or other data sources. These include document loaders, text splitters, vector stores, and retrievers.
+
+### Chains
+Chains combine LLMs with other components to create more complex applications. They define a sequence of operations to perform.
+
+### Agents
+Agents use LLMs to determine which actions to take and in what order, where actions can include using tools and retrieving information.
+
+## LangChain Use Cases
+
+1. Document Question Answering
+2. Chatbots
+3. Information Extraction
+4. Summarization
+5. Code Analysis and Generation
